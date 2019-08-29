@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/todo-list/static/css/main.0df13215.chunk.css",
+    "main.js": "/todo-list/static/js/main.cc56da7a.chunk.js",
+    "main.js.map": "/todo-list/static/js/main.cc56da7a.chunk.js.map",
+    "runtime~main.js": "/todo-list/static/js/runtime~main.a193ca8a.js",
+    "runtime~main.js.map": "/todo-list/static/js/runtime~main.a193ca8a.js.map",
+    "static/js/2.3a3579ae.chunk.js": "/todo-list/static/js/2.3a3579ae.chunk.js",
+    "static/js/2.3a3579ae.chunk.js.map": "/todo-list/static/js/2.3a3579ae.chunk.js.map",
+    "index.html": "/todo-list/index.html",
+    "precache-manifest.f8c9106fc249fe693afb5f879963d09c.js": "/todo-list/precache-manifest.f8c9106fc249fe693afb5f879963d09c.js",
+    "service-worker.js": "/todo-list/service-worker.js",
+    "static/css/main.0df13215.chunk.css.map": "/todo-list/static/css/main.0df13215.chunk.css.map",
+    "static/media/check-complete.svg": "/todo-list/static/media/check-complete.4b93446c.svg",
+    "static/media/check.svg": "/todo-list/static/media/check.40eb9cc6.svg",
+    "static/media/tick.svg": "/todo-list/static/media/tick.184e8a4f.svg"
+  }
+}
