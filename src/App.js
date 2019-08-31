@@ -12,12 +12,17 @@ class App extends Component {
       todoItems : [
         { title: 'Mua bim bim', isComplete: true},
         { title: 'Di da bong', isComplete: true},
-        { title: 'Di nghi mat', isComplete: false}
+        { title: 'Di choi', isComplete: false}
       ]
     }
+    this.inputElement = React.createRef();
 
     this.onKeyUp = this.onKeyUp.bind(this);
     this.onChange = this.onChange.bind(this);
+  }
+
+  componentDidMount() {
+    this.inputElement.current.focus();
   }
 
   onItemClicked(item) {
@@ -72,6 +77,7 @@ class App extends Component {
           <img src={tick} width={32} height={32} />
           <input 
           type="text" 
+          ref={this.inputElement}
           placeholder="Add a newItem" 
           value={newItem}
           onChange={this.onChange}
